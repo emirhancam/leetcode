@@ -33,7 +33,7 @@ Her eleman için sağdaki tüm elemanları taramalıyız : O(n^2)
 5. return result[]
 
 ` [30,40,50,60] ` örneğini inceleyelim:
-
+```text
 1.Adım --> i=0, temp=30
    stack: [] --> [0]
    result: [0, 0, 0, 0]
@@ -55,9 +55,10 @@ Her eleman için sağdaki tüm elemanları taramalıyız : O(n^2)
 
 Stackte kalan [3] ---> result[3] = 0 (zaten var)
 Cevap : [1, 1, 1, 0]
+```
 
 ` [73, 74, 75, 71, 69, 72, 76, 73] ` örneğini inceleyelim:
-
+```text
 i=0, temp=73
                stack: [] ---> [0]
                result : [0, 0, 0, 0, 0, 0, 0, 0]
@@ -99,6 +100,7 @@ i=7, temp=73
                73 < 76 olduğu için i=6 stackte kalıyor. Yanına i=7'yi ekliyoruz.
                stack: [6] ---> [6, 7]
                result: [1,1,4,2,1,1,0,0]
+```
 
 ## NOTLAR:
 1) Stackte ne tutuyoruz ? Indexleri. (Değerleri değil)
