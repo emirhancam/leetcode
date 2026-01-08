@@ -9,11 +9,11 @@
 ## 2) Örnek
 
 Verilen dizi = ` [73, 74, 75, 71, 69, 72, 76, 73] `
-
+```text
 Index: 0   1   2   3   4   5   6   7
 Temp:  73  74  75  71  69  72  76  73
 Wait:  1   1   4   2   1   1   0   0
-
+```
 Her eleman için sağdaki tüm elemanları taramalıyız : O(n^2)
 
 ## 3) Algoritma
