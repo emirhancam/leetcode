@@ -29,8 +29,8 @@ Her eleman için sağdaki tüm elemanları taramalıyız : O(n^2)
    b) Mevcut indexi stack'e ekle.
       stack.push(current)
 
-4. Stackte kalanlar için result zaten 0
-5. return result[]
+5. Stackte kalanlar için result zaten 0
+6. return result[]
 
 ` [30,40,50,60] ` örneğini inceleyelim:
 ```text
