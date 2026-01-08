@@ -21,10 +21,13 @@ Her eleman için sağdaki tüm elemanları taramalıyız : O(n^2)
 1. result[] dizisi oluşturulur. (En başta tüm elemanları 0)
 2. stack oluşturulur (index'leri tutacak)
 3. Her gün için soldan sağa:
-   a) Stack kontrolü:
-      WHILE stack boş değil VE (temperature[stack.pop] < temperature[current])
-         index = stack.pop()
-         result[index] = current - index
+   1. Stack kontrolü:
+      - Stack boş değilse ve `temperature[stack.top] < temperature[current]` ise:
+        - `index = stack.pop()`
+        - `result[index] = current - index`
+
+   2. Mevcut index’i stack’e ekle:
+      - `stack.push(current)`
    
    b) Mevcut indexi stack'e ekle.
       stack.push(current)
