@@ -88,18 +88,18 @@ i=5, temp=72
                72 > 71 olduğu için i=3'ü stackten çıkarıyoruz. result[3] = 5 - 3 = 2
                72 < 75 olduğu için i=2 kalıyor. Yanına i=5'i ekliyoruz.
                stack: [2, 3, 4] ---> [2, 5]
-               result: [1,1,0,2,1,0,0,0]
+               result: [1, 1, 0, 2, 1, 0, 0, 0]
 
 i=6, temp=76
                76 > 72 olduğu için i=5'i stackten çıkarıyoruz. result[5] = 6 - 5 = 1
                76 > 75 olduğu için i=2'yi stackten çıkarıyoruz. result[2] = 6 - 2 = 4
                stack: [2, 5] ---> [] ---> [6]
-               result: [1,1,4,2,1,1,0,0]
+               result: [1, 1, 4, 2, 1, 1, 0, 0]
                
 i=7, temp=73
                73 < 76 olduğu için i=6 stackte kalıyor. Yanına i=7'yi ekliyoruz.
                stack: [6] ---> [6, 7]
-               result: [1,1,4,2,1,1,0,0]
+               result: [1, 1, 4, 2, 1, 1, 0, 0]
 ```
 
 ## NOTLAR:
